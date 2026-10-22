@@ -1,4 +1,4 @@
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/datasetjson_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/datasetjson/datasetjson_{{ version }}.tar.gz
-  sha256: c01f720b748cc11dd3188ea23852c518c4dbd20ece4295accefd4b95c067ad7e
+  sha256: 467cf39c4af4d79c8c8c2b834d567ef28f6f49ef57cdc19876e649df241649e9
 
 build:
   number: 0
